@@ -1,0 +1,122 @@
+html, header, nav, ul, img, a, body, p, h1, h2, h3, img, section, footer, li, span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ body{
+     line-height: 1;
+     font-family: 'JetBrains Mono', monospace;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+
+#lions{
+    display: flex;
+    
+
+}
+#lions div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#lions p{
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#lions{
+    display: flex;
+    
+    background: #b437aa;
+    padding: 10%;
+}
+#lions img{
+    width: 400px;
+   margin-left: 5%;
+}
+#lions img:hover{
+    width: 500px;
+}
+.dv1 p:hover{
+color: rgb(86, 202, 92);
+}
+#lions2{
+    display:table-cell;
+ 
+
+}
+#lions2 div{
+    float: left;
+    display:table-cell;
+    align-items: center;
+    justify-items: center;
+}
+#lions2 p{
+    text-align:left;
+    width: 100%;
+    font-size: 25px; 
+    font-weight: bold;
+}
+#lions2 text{
+    display: table-cell;
+    float: right;
+    width: 100%;
+    margin-right: 1px;
+} 
+#lions2 {
+    display: flex;
+    background: rgb(97, 130, 214);
+    padding: 10%;
+}
+#lions2 img{
+    float: left;
+   display: table-cell;
+   width: 400px;
+  margin-left: 5%;
+}
+#lions2 img:hover{
+   width: 500px;
+}
+#link{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+#link a{
+    border: 1px solid #0c0107;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #ffffff;
+    background: #b437aa;
+    transition: all 0.6s ease;
+}
+#link a:hover{
+    background: transparent;
+    color: #9e0892;
+    transition: all 0.6s ease;
+}
+#link{
+    background: #707377;
+}
+#logo{
+    width: 50px;
+}
+::-webkit-scrollbar {
+    width: 10px;   
+}
+::-webkit-scrollbar-track{
+    background: #98c8ff;
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(97, 130, 214) ;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#b437aa ;
+}
